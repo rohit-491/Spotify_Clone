@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify: Listen your favourite music</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></link>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="image"><img src="img/image-gallery-spotify-logo-21.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Help</li>
+        </ul>
+    </nav> 
+
+    <div class="container">
+        <div class="songlist">
+            <h1>Best songs of Honey Sing</h1>
+            <div class="songItem">
+                <img src="img/brown_rang.jpeg" alt="brown_rang">
+                <span class="songs">Brown Rang - YO YO Honey Sing</span><i id="0" class="far songItemPlay fa-play-circle"></i>
+            </div>
+
+            <div class="songItem">
+                <img src="img/blue_eyes.jpeg" alt="blue_eyes">
+                <span class="songs">Blue Eyes - YO YO Honey Sing</span><i id="1" class="far songItemPlay fa-play-circle"></i>
+            </div>
+
+            <div class="songItem">
+                <img src="img/desi_kalakar.jpeg" alt="desi_kalakar">
+                <span class="songs">Desi Kalakar - YO YO Honey Sing</span><i id="2" class="far songItemPlay fa-play-circle"></i>
+            </div>
+
+            <div class="songItem">
+                <img src="img/dheere dheere.jpeg" alt="dheere dheere">
+                <span class="songs">Dheere Dheere- YO YO Honey Sing</span><i id="3" class="far songItemPlay fa-play-circle"></i>
+            </div>
+
+            <div class="songItem">
+                <img src="img/lungi_dance.jpeg" alt="Lungi dance">
+                <span class="songs">Lungi Dance - YO YO Honey Sing</span><i id="4" class="far songItemPlay fa-play-circle"></i>
+            </div>
+
+            <div class="songItem">
+                <img src="img/one_bottle_down.jpeg" alt="one_bottle_down">
+                <span class="songs">One Bottle Down - YO YO Honey Sing</span><i id="5" class="far songItemPlay fa-play-circle"></i>
+            </div>
+
+            <div class="songItem">
+                <img src="img/kalastar.jpeg" alt="kalastar">
+                <span class="songs">kalastar - YO YO Honey Sing</span><i id="6" class="far songItemPlay fa-play-circle"></i>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+        <div class="bottom">
+            <input type="range" name="range" id="rangebox" min="0" max="100">
+            <div class="icons">
+             <i class="fas fa-3x fa-step-backward" id="previous"></i>
+              <i class="far fa-3x fa-play-circle" id="pause"></i>
+                <i class="fas fa-3x fa-step-forward" id="next"></i>
+            </div>
+            <div class="song_info"><img src="img/gif.gif" id="gif">&nbsp;&nbsp;<span id="song_name">Brown Rang -Yo Yo Honey Sing</span>&nbsp;</div>
+        </div>
+    <script src="script.js"></script>
+</body> 
+</html>
